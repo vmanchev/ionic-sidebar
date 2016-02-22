@@ -60,7 +60,7 @@ angular.module('starter.controllers', [])
                 alert("got data");
                 $scope.offers = result.data;
             }, function (err) {
-                alert(err);
+                alert(JSON.stringify(err));
             });
 
             $scope.showOffer = function (offer) {
