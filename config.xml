@@ -17,4 +17,7 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <allow-navigation href="http://oferti.biz/*" />
+  <allow-intent href="http://oferti.biz/*" />
+  <access origin="http://oferti.biz" />
 </widget>
