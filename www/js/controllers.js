@@ -53,13 +53,16 @@ angular.module('starter.controllers', [])
 })
 
 .controller('BrowseController', function ($scope, $http) {
-    $http.get("http://oferti.biz/mobile.json").then(function(result){
+    $http.get("http://oferti.biz/mobile.php").then(function(result){
+        alert("got data");
         $scope.offers = result.data;
     });
     
     $scope.showOffer = function(offer){
         window.selectedOffer = offer;
     }
+}, function(err){
+    alert(err);
 })
 
 .controller('OfferController', function ($scope, $ionicConfig) {
