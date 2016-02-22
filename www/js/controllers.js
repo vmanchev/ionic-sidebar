@@ -54,10 +54,7 @@ angular.module('starter.controllers', [])
 
         .controller('BrowseController', function ($scope, $http) {
             
-            alert("sending request to http://oferti.biz/mobile.php");
-            
             $http.get("http://oferti.biz/mobile.json").then(function (result) {
-                alert("got data");
                 $scope.offers = result.data;
             }, function (err) {
                 alert(JSON.stringify(err));

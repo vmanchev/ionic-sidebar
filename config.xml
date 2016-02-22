@@ -19,5 +19,4 @@
   </feature>
   <allow-navigation href="http://oferti.biz/*" />
   <allow-intent href="http://oferti.biz/*" />
-  <access origin="http://oferti.biz" />
 </widget>
