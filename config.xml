@@ -12,7 +12,7 @@
   <allow-navigation href="http://*/*"/>
   <allow-navigation href="data:*"/>
   <allow-intent href="*"/>
-  <plugin spec="https://github.com/apache/cordova-plugin-whitelist.git" />
+  <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
   <plugin name="com.sharinglabs.cordova.plugin.cache" spec="1.0.0" source="pgb" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
