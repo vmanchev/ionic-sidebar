@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.ionicside163324"
+        },
+        "org.apache.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.titlextechnology.www10"
         }
     },
     "dependent_plugins": {}

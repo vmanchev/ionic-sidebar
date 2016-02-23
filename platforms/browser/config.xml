@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.ionicside463324" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Ionic Side 4</name>
+<widget id="com.titlextechnology.www10" version="0.0.10" versionCode="10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ionic Side 10</name>
     <description>
-        An Ionic Framework and Cordova project. 0.0.4
+        An Ionic Framework and Cordova project. 0.0.10
     </description>
-    <author email="you@example.com" href="http://example.com.com/">
-        Your Name Here
+    <author email="vmanchev@titlextechnology.com" href="http://titlextechnology.com/">
+        Venelin Manchev, TitleX Technology Ltd.
     </author>
     <content src="index.html" />
     <access launch-external="yes" origin="*" />

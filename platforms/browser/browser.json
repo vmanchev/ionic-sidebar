@@ -9,11 +9,24 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.ionicside163324"
+        },
+        "org.apache.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.titlextechnology.www10"
         }
     },
     "dependent_plugins": {},
-    "modules": [],
+    "modules": [
+        {
+            "file": "plugins/org.apache.cordova.plugin.cache/www/Cache.js",
+            "id": "org.apache.cordova.plugin.cache.Cache",
+            "pluginId": "org.apache.cordova.plugin.cache",
+            "clobbers": [
+                "cache"
+            ]
+        }
+    ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2-dev"
+        "cordova-plugin-whitelist": "1.2.2-dev",
+        "org.apache.cordova.plugin.cache": "1.0.5"
     }
 }

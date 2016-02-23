@@ -53,8 +53,8 @@ angular.module('starter.controllers', [])
         })
 
         .controller('BrowseController', function ($scope, $http) {
-            
-            $http.get("http://prodio.bg/mobile.json").then(function (result) {
+            //this is for version 8
+            $http.get("http://www.prodio.bg/mobile.json").then(function (result) {
                 $scope.offers = result.data;
             }, function (err) {
                 alert(JSON.stringify(err));
