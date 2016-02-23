@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' http: ; style-src 'self' 'unsafe-inline'; script-src 'self' http: 'unsafe-inline' 'unsafe-eval' ">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' oferti.biz data: gap: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *;script-src 'self' oferti.biz 'unsafe-eval' 'unsafe-inline';">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
@@ -24,7 +24,7 @@
     <script src="js/controllers.js"></script>
   </head>
 
-  <body ng-app="starter" ng-csp class="platform-browser platform-cordova platform-webview">
+  <body ng-app="starter" ng-csp>
     <ion-nav-view></ion-nav-view>
   </body>
 </html>

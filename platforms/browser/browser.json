@@ -6,14 +6,8 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.ionicside163324"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {},
     "modules": [],
-    "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.1"
-    }
+    "plugin_metadata": {}
 }
