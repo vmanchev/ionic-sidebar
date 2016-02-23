@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.titlextechnology.www13" version="0.0.13" versionCode="13" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Ionic Side 13</name>
+<widget id="com.titlextechnology.www14" version="0.0.14" versionCode="14" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Ionic Side 14</name>
   <description>
-        An Ionic Framework and Cordova project. 0.0.13
+        An Ionic Framework and Cordova project. 0.0.14
     </description>
   <author email="vmanchev@titlextechnology.com" href="http://titlextechnology.com/">
         Venelin Manchev, TitleX Technology Ltd.
@@ -13,7 +13,6 @@
   <allow-navigation href="data:*"/>
   <allow-intent href="*"/>
   <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
-  <plugin name="com.sharinglabs.cordova.plugin.cache" spec="1.0.0" source="pgb" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
