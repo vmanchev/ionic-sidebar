@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.titlextechnology.www12" version="0.0.12" versionCode="12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Ionic Side 12</name>
+<widget id="com.titlextechnology.www13" version="0.0.13" versionCode="13" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Ionic Side 13</name>
   <description>
-        An Ionic Framework and Cordova project. 0.0.12
+        An Ionic Framework and Cordova project. 0.0.13
     </description>
   <author email="vmanchev@titlextechnology.com" href="http://titlextechnology.com/">
         Venelin Manchev, TitleX Technology Ltd.
