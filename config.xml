@@ -12,6 +12,7 @@
   <allow-navigation href="http://*/*"/>
   <allow-navigation href="data:*"/>
   <allow-intent href="*"/>
+  <plugin spec="https://github.com/apache/cordova-plugin-whitelist.git" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
